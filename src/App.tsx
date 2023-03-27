@@ -1,15 +1,8 @@
-import Button from '@mui/material/Button'
-
-import Navbar from './Components/Navbar';
-import './App.css'
+import "./App.css";
+import Landing from "./Screens/Landing";
 
 function App() {
-  return (
-    <>
-      <Button variant="contained">Hello World</ Button>
-      <Navbar name="Cecil Cao"/>
-    </>
-  );
+  return <Landing />;
 }
 
 export default App;

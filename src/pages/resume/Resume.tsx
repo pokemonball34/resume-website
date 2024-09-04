@@ -10,7 +10,7 @@ const Resume = () => {
                     textAlign: 'center',
                     mr: 2,
                     // display: { xs: 'none', md: 'flex' },
-                    fontSize: 24,
+                    fontSize: 30,
                     fontFamily: 'monospace',
                     fontWeight: 700,
                     color: 'inherit',

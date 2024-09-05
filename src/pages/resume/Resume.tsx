@@ -62,6 +62,7 @@ const Resume = () => {
             >
                 Education
             </Typography>
+            <Typography>University of Toronto Undergraduate</Typography>
         </Box>
     );
 };

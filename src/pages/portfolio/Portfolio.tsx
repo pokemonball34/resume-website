@@ -41,13 +41,32 @@ const Portfolio = () => {
                 </Tabs>
             </Box>
             <Tabpanel value={value} index={0}>
-                <Project />
+                <Box sx={{ marginTop: 4 }}>
+                    <Project
+                        title='Lizard'
+                        content='Lizards are a widespread group of squamate reptiles, with
+                    over 6,000 species, ranging across all continents except
+                    Antarctica'
+                    />
+                </Box>
             </Tabpanel>
             <Tabpanel value={value} index={1}>
-                Writing
+                <Box sx={{ marginTop: 4 }}>
+                    <Project
+                        title='Panda'
+                        content='The giant panda, also known as the panda bear or simply panda, 
+                        is a bear species endemic to China. It is characterised by its white coat 
+                        with black patches around the eyes, ears, legs and shoulders.'
+                    />
+                </Box>
             </Tabpanel>
             <Tabpanel value={value} index={2}>
-                Art
+                <Box sx={{ marginTop: 4 }}>
+                    <Project
+                        title='Dog'
+                        content='The dog was the first species to be domesticated by humans.'
+                    />
+                </Box>
             </Tabpanel>
         </Box>
     );

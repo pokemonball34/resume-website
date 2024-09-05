@@ -4,34 +4,50 @@ import Tabs from '@mui/material/Tabs';
 import Typography from '@mui/material/Typography';
 import { useState } from 'react';
 import Tabpanel from '../../components/portfolio/Tabpanel';
+import Project from '../../components/portfolio/Project';
 
 const Portfolio = () => {
     const [value, setValue] = useState(0);
 
     return (
-        <Box sx={{ m: 36 }}>
+        <Box sx={{ m: 8 }}>
             <Typography fontSize={30} fontFamily={'monospace'} fontWeight={700}>
                 Portfolio
             </Typography>
-            <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
+            <Box
+                sx={{
+                    borderBottom: 1,
+                    borderColor: 'divider',
+                    textColor: 'white',
+                }}
+            >
                 <Tabs
                     value={value}
                     onChange={(_, newValue) => setValue(newValue)}
                     aria-label='basic tabs example'
+                    centered={true}
                 >
-                    <Tab label='Item One' id='tab0' />
-                    <Tab label='Item Two' id='tab1' />
-                    <Tab label='Item Three' id='tab2' />
+                    <Tab
+                        label='Software Development'
+                        id='tab0'
+                        sx={{ color: 'white' }}
+                    />
+                    <Tab
+                        label='Creative Writing'
+                        id='tab1'
+                        sx={{ color: 'white' }}
+                    />
+                    <Tab label='Art' id='tab2' sx={{ color: 'white' }} />
                 </Tabs>
             </Box>
             <Tabpanel value={value} index={0}>
-                Tabpanel 1
+                <Project />
             </Tabpanel>
             <Tabpanel value={value} index={1}>
-                Tabpanel 2
+                Writing
             </Tabpanel>
             <Tabpanel value={value} index={2}>
-                Tabpanel 3
+                Art
             </Tabpanel>
         </Box>
     );

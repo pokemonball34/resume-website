@@ -1,7 +1,11 @@
-import Avatar from '@mui/material/Avatar';
 import Box from '@mui/material/Box';
+import Divider from '@mui/material/Divider';
 import Paper from '@mui/material/Paper';
 import Typography from '@mui/material/Typography';
+
+import Profile from './components/Profile';
+import Intro from './components/Intro';
+import Skillset from './components/Skillset';
 
 const About = () => {
     return (
@@ -15,31 +19,24 @@ const About = () => {
                 About me
             </Typography>
 
-            <Paper>
-                <Box sx={{ padding: 4 }}>
-                    <Avatar
-                        alt='Cecil Cao'
-                        src='src/assets/profile.jpg'
-                        variant='rounded'
-                        sx={{ width: 256, height: 256 }}
-                    />
-                    <Typography>Cecil Cao</Typography>
-                    <Typography>Web Developer and Game Designer</Typography>
-                    <Typography>cecil12345@hotmail.com</Typography>
-                    <Typography>647-854-8805</Typography>
-                </Box>
+            <Paper
+                sx={{ padding: 4, display: { xs: 'flex', textAlign: 'left' } }}
+            >
                 <Box>
-                    <Typography>Skills</Typography>
-                    <Typography>Typescript, Python, Java, C/Cpp</Typography>
+                    <Profile />
+                    <Box
+                        sx={{
+                            display: {
+                                xs: 'box',
+                            },
+                            marginTop: 4,
+                        }}
+                    >
+                        <Skillset />
+                    </Box>
                 </Box>
-                <Box sx={{ padding: 4 }}>
-                    <Typography>Intro</Typography>
-                    <Typography>
-                        Hi there! Welcome to my website! The name is Cecil Cao
-                        and I'm currently finishing my final year of CS
-                        undergrad at the University of Toronto!
-                    </Typography>
-                </Box>
+                <Divider variant='middle' orientation='vertical' flexItem />
+                <Intro />
             </Paper>
         </Box>
     );

@@ -14,9 +14,8 @@ const Intro = () => {
                 the MUI library for most of the assets.
                 <br />
                 Right now, I'm looking for employment after graduation, and I'm
-                currently looking for a position in software development. I love
-                to be creative, and exploring ideas of creative expression! I
-                have experience working with AI, Game Development, and Web
+                currently looking for a position in software development. I have
+                experience working with AI, Game Development, and Web
                 Development and I hope to continue working with these fields.
             </Typography>
         </Box>

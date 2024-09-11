@@ -10,18 +10,18 @@ import Typography from '@mui/material/Typography';
 
 const experienceSteps = [
     {
-        label: 'Select campaign settings',
+        label: 'Co-op Software Developer',
         description: `For each ad campaign that you create, you can control how much
               you're willing to spend on clicks and conversions, which networks
               and geographical locations you want your ads to show on, and more.`,
     },
     {
-        label: 'Create an ad group',
+        label: 'Web Application/Knowledge Graph Engineer',
         description:
             'An ad group contains one or more ads which target a shared set of keywords.',
     },
     {
-        label: 'Create an ad',
+        label: 'Many More to Come!',
         description: `Try out different ad text to see what brings in the most customers,
               and learn how to enhance your ads using features like ad extensions.
               If you run into any problems with your ads, find out how to tell if
@@ -45,20 +45,14 @@ const Timeline = () => {
     };
 
     return (
-        <Box sx={{ maxWidth: 400 }}>
+        <Box sx={{ m: 2 }}>
             <Stepper activeStep={activeStep} orientation='vertical'>
                 {experienceSteps.map((step, index) => (
                     <Step key={step.label}>
-                        <StepLabel
-                            optional={
-                                index === experienceSteps.length - 1 ? (
-                                    <Typography variant='caption' color='white'>
-                                        Last step
-                                    </Typography>
-                                ) : null
-                            }
-                        >
-                            <Typography color='white'>{step.label}</Typography>
+                        <StepLabel>
+                            <Typography color='white' fontWeight={700}>
+                                {step.label}
+                            </Typography>
                         </StepLabel>
                         <StepContent>
                             <Typography color='white'>
@@ -69,15 +63,16 @@ const Timeline = () => {
                                     variant='contained'
                                     onClick={handleNext}
                                     sx={{ mt: 1, mr: 1 }}
+                                    disabled={
+                                        index === experienceSteps.length - 1
+                                    }
                                 >
-                                    {index === experienceSteps.length - 1
-                                        ? 'Finish'
-                                        : 'Continue'}
+                                    Continue
                                 </Button>
                                 <Button
                                     disabled={index === 0}
                                     onClick={handleBack}
-                                    sx={{ mt: 1, mr: 1 }}
+                                    sx={{ mt: 1, mr: 1, color: 'white' }}
                                 >
                                     Back
                                 </Button>

@@ -8,8 +8,6 @@ const Resume = () => {
             <Typography
                 sx={{
                     textAlign: 'center',
-                    mr: 2,
-                    // display: { xs: 'none', md: 'flex' },
                     fontSize: 30,
                     fontFamily: 'monospace',
                     fontWeight: 700,
@@ -19,50 +17,53 @@ const Resume = () => {
             >
                 Resume
             </Typography>
-            <Box>
-                <Typography
-                    sx={{
-                        mr: 2,
-                        display: { xs: 'none', md: 'flex' },
-                        fontFamily: 'monospace',
-                        fontWeight: 700,
-                        color: 'inherit',
-                        textDecoration: 'none',
-                    }}
-                >
-                    Professional Experience
-                </Typography>
-                <Timeline />
-            </Box>
-            <Box>
-                <Typography
-                    sx={{
-                        mr: 2,
-                        display: { xs: 'none', md: 'flex' },
-                        fontFamily: 'monospace',
-                        fontWeight: 700,
-                        color: 'inherit',
-                        textDecoration: 'none',
-                    }}
-                >
-                    Skills
-                </Typography>
-                <Timeline />
-            </Box>
+            <Box sx={{ display: 'flex' }}>
+                <Box sx={{ width: '50%' }}>
+                    <Typography
+                        sx={{
+                            mr: 2,
+                            fontFamily: 'monospace',
+                            fontWeight: 700,
+                            color: 'inherit',
+                            textDecoration: 'none',
+                        }}
+                    >
+                        Professional Experience
+                    </Typography>
+                    <Timeline />
+                </Box>
+                <Box sx={{ width: '50%' }}>
+                    <Typography
+                        sx={{
+                            fontFamily: 'monospace',
+                            fontWeight: 700,
+                            color: 'inherit',
+                            textDecoration: 'none',
+                        }}
+                    >
+                        Skills
+                    </Typography>
+                    <Timeline />
 
-            <Typography
-                sx={{
-                    mr: 2,
-                    display: { xs: 'none', md: 'flex' },
-                    fontFamily: 'monospace',
-                    fontWeight: 700,
-                    color: 'inherit',
-                    textDecoration: 'none',
-                }}
-            >
-                Education
-            </Typography>
-            <Typography>University of Toronto Undergraduate</Typography>
+                    <Typography
+                        sx={{
+                            mr: 2,
+                            display: { xs: 'none', md: 'flex' },
+                            fontFamily: 'monospace',
+                            fontWeight: 700,
+                            color: 'inherit',
+                            textDecoration: 'none',
+                        }}
+                    >
+                        Education
+                    </Typography>
+                    <Typography
+                        sx={{ fontFamily: 'monospace', textAlign: 'left' }}
+                    >
+                        University of Toronto Computer Science Undergraduate
+                    </Typography>
+                </Box>
+            </Box>
         </Box>
     );
 };

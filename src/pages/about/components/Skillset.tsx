@@ -7,7 +7,9 @@ const Skillset = () => {
             <Typography fontFamily={'monospace'} fontWeight={700} fontSize={24}>
                 Skills
             </Typography>
-            <Typography>Typescript, Python, Java, C/Cpp</Typography>
+            <Typography>
+                Unity/C#, Typescript, Python, Java, C/C++, Bash, Docker
+            </Typography>
         </Box>
     );
 };

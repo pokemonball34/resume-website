@@ -25,6 +25,13 @@ const NavBar = () => {
         setAnchorElNav(null);
     };
 
+    const scrollToSection = (section: string) => {
+        const element = document.getElementById(section);
+        element?.scrollIntoView({
+            behavior: 'smooth',
+        });
+    };
+
     return (
         <AppBar position='sticky' sx={{ backgroundColor: '#000000' }}>
             <Container maxWidth='xl'>
@@ -80,7 +87,7 @@ const NavBar = () => {
                             {pages.map((page) => (
                                 <MenuItem
                                     key={page}
-                                    onClick={handleCloseNavMenu}
+                                    onClick={() => scrollToSection(page)}
                                 >
                                     <Typography
                                         sx={{
@@ -124,7 +131,7 @@ const NavBar = () => {
                         {pages.map((page) => (
                             <Button
                                 key={page}
-                                onClick={handleCloseNavMenu}
+                                onClick={() => scrollToSection(page)}
                                 sx={{
                                     my: 2,
                                     color: 'white',

@@ -11,7 +11,7 @@ import Footer from './components/footer/Footer';
 
 function App() {
     return (
-        <Box>
+        <Box id='Home'>
             <Navbar />
             <Box>
                 <Homepage />

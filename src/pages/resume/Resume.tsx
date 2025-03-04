@@ -4,7 +4,7 @@ import Timeline from '../../components/timeline/Timeline';
 
 const Resume = () => {
     return (
-        <Box sx={{ margin: 4 }}>
+        <Box sx={{ margin: 4, paddingTop: 8 }} id='Resume'>
             <Typography
                 sx={{
                     textAlign: 'center',
@@ -13,6 +13,7 @@ const Resume = () => {
                     fontWeight: 700,
                     color: 'inherit',
                     textDecoration: 'none',
+                    margin: 4,
                 }}
             >
                 Resume

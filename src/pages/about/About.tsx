@@ -9,7 +9,7 @@ import Skillset from './components/Skillset';
 
 const About = () => {
     return (
-        <Box sx={{ m: 8 }}>
+        <Box sx={{ m: 8, paddingTop: 8 }} id='About Me'>
             <Typography
                 fontSize={30}
                 fontFamily={'monospace'}

@@ -10,8 +10,13 @@ const Portfolio = () => {
     const [value, setValue] = useState(0);
 
     return (
-        <Box sx={{ m: 8 }}>
-            <Typography fontSize={30} fontFamily={'monospace'} fontWeight={700}>
+        <Box sx={{ m: 8, paddingTop: 8 }} id='Portfolio'>
+            <Typography
+                fontSize={30}
+                fontFamily={'monospace'}
+                fontWeight={700}
+                sx={{ m: 4 }}
+            >
                 Portfolio
             </Typography>
             <Box

@@ -69,7 +69,7 @@ const Portfolio = () => {
                                 title='Into the Dataswarm'
                                 content={content.dataswarm}
                                 link='https://pokemonball34.itch.io/into-the-dataswarm'
-                                image='/src/assets/DataswarmBanner.png'
+                                image='/DataswarmBanner.png'
                             />
                         </Grid>
                         <Grid size={4}>
@@ -77,7 +77,7 @@ const Portfolio = () => {
                                 title='Novajack'
                                 content={content.novajack}
                                 link='https://pokemonball34.itch.io/novajack'
-                                image='/src/assets/novajack.png'
+                                image='/novajack.png'
                             />
                         </Grid>
                         <Grid size={4}>
@@ -85,7 +85,7 @@ const Portfolio = () => {
                                 title='Untitled House Game'
                                 content={content.houseGame}
                                 link='https://john-io.itch.io/untitled-house-game'
-                                image='/src/assets/housebanner.png'
+                                image='/housebanner.png'
                             />
                         </Grid>
                         <Grid size={4}>
@@ -93,14 +93,14 @@ const Portfolio = () => {
                                 title='Portfolio Website'
                                 content={content.portfolio}
                                 link='#'
-                                image='/src/assets/homebanner.png'
+                                image='/homebanner.png'
                             />
                         </Grid>
                         <Grid size={4}>
                             <NoLinkProject
                                 title='Dungeon Management Sim'
                                 content={content.dungeon}
-                                image='/src/assets/.png'
+                                image='/.png'
                             />
                         </Grid>
                     </Grid>
@@ -113,15 +113,15 @@ const Portfolio = () => {
                             <NoLinkProject
                                 title='Vampire the Masquerade'
                                 content={content.vtm}
-                                image='/src/assets/vtm.png'
+                                image='/vtm.png'
                             />
                         </Grid>
                         <Grid size={4}>
                             <Project
                                 title='What We Leave Behind'
                                 content={content.cyberpunk}
-                                link='/src/assets/What We Leave Behind.pdf'
-                                image='/src/assets/cyberpunk.jpg'
+                                link='/What We Leave Behind.pdf'
+                                image='/cyberpunk.jpg'
                             />
                         </Grid>
                     </Grid>
@@ -134,32 +134,32 @@ const Portfolio = () => {
                             <Project
                                 title='Practice Piece - Heimer'
                                 content='A practice piece based on a tutorial. Wanted to practice layering colours while maintaining form.'
-                                link='/src/assets/heimer.png'
-                                image='/src/assets/heimer.png'
+                                link='/heimer.png'
+                                image='/heimer.png'
                             />
                         </Grid>
                         <Grid size={4}>
                             <Project
                                 title='Practice Piece - Thresh'
                                 content='Practice Piece of janitor Thresh from League of Legends. I have a weakness for villains in uniform.'
-                                link='/src/assets/thresh.png'
-                                image='/src/assets/thresh.png'
+                                link='/thresh.png'
+                                image='/thresh.png'
                             />
                         </Grid>
                         <Grid size={4}>
                             <Project
                                 title='My dog'
                                 content='My dog Sushi! He is a cutie patooie!'
-                                link='/src/assets/dog.jpg'
-                                image='/src/assets/dog.jpg'
+                                link='/dog.jpg'
+                                image='/dog.jpg'
                             />
                         </Grid>
                         <Grid size={4}>
                             <Project
                                 title='Study Piece - Light'
                                 content='Practice on light on skin.'
-                                link='/src/assets/balls.PNG'
-                                image='/src/assets/balls.PNG'
+                                link='/balls.PNG'
+                                image='/balls.PNG'
                             />
                         </Grid>
                     </Grid>

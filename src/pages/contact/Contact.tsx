@@ -34,7 +34,7 @@ const Contact = () => {
                     }
                 >
                     <GitHubIcon
-                        sx={{ fontSize: 80 }}
+                        sx={{ fontSize: 80, color: 'white' }}
                         href='https://github.com/pokemonball34'
                     />
                 </IconButton>
@@ -47,7 +47,7 @@ const Contact = () => {
                     }
                 >
                     <LinkedInIcon
-                        sx={{ fontSize: 80 }}
+                        sx={{ fontSize: 80, color: 'white' }}
                         href='https://www.linkedin.com/in/cecil-cao-140466162/'
                     />
                 </IconButton>

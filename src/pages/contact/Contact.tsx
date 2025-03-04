@@ -2,7 +2,7 @@ import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import { IconButton } from '@mui/material';
+import IconButton from '@mui/material/IconButton';
 
 const Contact = () => {
     const newWindow = (url: string) => {

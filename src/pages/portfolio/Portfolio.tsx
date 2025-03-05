@@ -120,7 +120,7 @@ const Portfolio = () => {
                             <Project
                                 title='What We Leave Behind'
                                 content={content.cyberpunk}
-                                link='/What We Leave Behind.pdf'
+                                link='/resume-website/What We Leave Behind.pdf'
                                 image='cyberpunk.jpg'
                             />
                         </Grid>
@@ -134,7 +134,7 @@ const Portfolio = () => {
                             <Project
                                 title='Practice Piece - Heimer'
                                 content='A practice piece based on a tutorial. Wanted to practice layering colours while maintaining form.'
-                                link='/heimer.png'
+                                link='/resume-website/heimer.png'
                                 image='heimer.png'
                             />
                         </Grid>
@@ -142,7 +142,7 @@ const Portfolio = () => {
                             <Project
                                 title='Practice Piece - Thresh'
                                 content='Practice Piece of janitor Thresh from League of Legends. I have a weakness for villains in uniform.'
-                                link='/thresh.png'
+                                link='/resume-website/thresh.png'
                                 image='thresh.png'
                             />
                         </Grid>
@@ -150,7 +150,7 @@ const Portfolio = () => {
                             <Project
                                 title='My dog'
                                 content='My dog Sushi! He is a cutie patooie!'
-                                link='/dog.jpg'
+                                link='/resume-website/dog.jpg'
                                 image='dog.jpg'
                             />
                         </Grid>
@@ -158,7 +158,7 @@ const Portfolio = () => {
                             <Project
                                 title='Study Piece - Light'
                                 content='Practice on light on skin.'
-                                link='/balls.PNG'
+                                link='/resume-website/balls.PNG'
                                 image='balls.PNG'
                             />
                         </Grid>

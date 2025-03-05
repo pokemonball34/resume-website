@@ -13,7 +13,7 @@ const Profile = () => {
         >
             <Avatar
                 alt='Cecil Cao'
-                src='src/assets/profile.jpg'
+                src='profile.jpg'
                 variant='rounded'
                 sx={{ width: 256, height: 256 }}
             />

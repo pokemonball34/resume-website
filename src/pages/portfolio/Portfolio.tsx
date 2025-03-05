@@ -69,7 +69,7 @@ const Portfolio = () => {
                                 title='Into the Dataswarm'
                                 content={content.dataswarm}
                                 link='https://pokemonball34.itch.io/into-the-dataswarm'
-                                image='/DataswarmBanner.png'
+                                image='DataswarmBanner.png'
                             />
                         </Grid>
                         <Grid size={4}>
@@ -77,7 +77,7 @@ const Portfolio = () => {
                                 title='Novajack'
                                 content={content.novajack}
                                 link='https://pokemonball34.itch.io/novajack'
-                                image='/novajack.png'
+                                image='novajack.png'
                             />
                         </Grid>
                         <Grid size={4}>
@@ -85,7 +85,7 @@ const Portfolio = () => {
                                 title='Untitled House Game'
                                 content={content.houseGame}
                                 link='https://john-io.itch.io/untitled-house-game'
-                                image='/housebanner.png'
+                                image='housebanner.png'
                             />
                         </Grid>
                         <Grid size={4}>
@@ -93,14 +93,14 @@ const Portfolio = () => {
                                 title='Portfolio Website'
                                 content={content.portfolio}
                                 link='#'
-                                image='/homebanner.png'
+                                image='homebanner.png'
                             />
                         </Grid>
                         <Grid size={4}>
                             <NoLinkProject
                                 title='Dungeon Management Sim'
                                 content={content.dungeon}
-                                image='/.png'
+                                image='#'
                             />
                         </Grid>
                     </Grid>
@@ -113,7 +113,7 @@ const Portfolio = () => {
                             <NoLinkProject
                                 title='Vampire the Masquerade'
                                 content={content.vtm}
-                                image='/vtm.png'
+                                image='vtm.png'
                             />
                         </Grid>
                         <Grid size={4}>
@@ -121,7 +121,7 @@ const Portfolio = () => {
                                 title='What We Leave Behind'
                                 content={content.cyberpunk}
                                 link='/What We Leave Behind.pdf'
-                                image='/cyberpunk.jpg'
+                                image='cyberpunk.jpg'
                             />
                         </Grid>
                     </Grid>
@@ -135,7 +135,7 @@ const Portfolio = () => {
                                 title='Practice Piece - Heimer'
                                 content='A practice piece based on a tutorial. Wanted to practice layering colours while maintaining form.'
                                 link='/heimer.png'
-                                image='/heimer.png'
+                                image='heimer.png'
                             />
                         </Grid>
                         <Grid size={4}>
@@ -143,7 +143,7 @@ const Portfolio = () => {
                                 title='Practice Piece - Thresh'
                                 content='Practice Piece of janitor Thresh from League of Legends. I have a weakness for villains in uniform.'
                                 link='/thresh.png'
-                                image='/thresh.png'
+                                image='thresh.png'
                             />
                         </Grid>
                         <Grid size={4}>
@@ -151,7 +151,7 @@ const Portfolio = () => {
                                 title='My dog'
                                 content='My dog Sushi! He is a cutie patooie!'
                                 link='/dog.jpg'
-                                image='/dog.jpg'
+                                image='dog.jpg'
                             />
                         </Grid>
                         <Grid size={4}>
@@ -159,7 +159,7 @@ const Portfolio = () => {
                                 title='Study Piece - Light'
                                 content='Practice on light on skin.'
                                 link='/balls.PNG'
-                                image='/balls.PNG'
+                                image='balls.PNG'
                             />
                         </Grid>
                     </Grid>
